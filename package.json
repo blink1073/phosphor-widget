@@ -30,6 +30,7 @@
     "karma-mocha-reporter": "^1.1.1",
     "mocha": "^2.2.5",
     "rimraf": "^2.4.2",
+    "stealjs": "^3.3.14-pre",
     "typedoc": "^0.3.11",
     "typescript": "^1.6.2"
   },
@@ -58,7 +59,9 @@
     "lib/index.d.ts"
   ],
   "browserify": {
-    "transform": ["browserify-css"]
+    "transform": [
+      "browserify-css"
+    ]
   },
   "keywords": [
     "ui",

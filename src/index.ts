@@ -38,7 +38,7 @@ import {
   ISignal, Signal, clearSignalData
 } from 'phosphor-signaling';
 
-import './index.css';
+import './index.css!';
 
 
 /**

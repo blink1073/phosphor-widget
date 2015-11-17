@@ -27,7 +27,7 @@ import {
   ResizeMessage, Widget, attachWidget, detachWidget
 } from '../../lib/index';
 
-import './index.css';
+import './index.css!';
 
 
 class LogWidget extends Widget {
